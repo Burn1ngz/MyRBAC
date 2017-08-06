@@ -4,7 +4,7 @@
 
 
 
-
+    <!--Content-->
     <LinearLayout
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
@@ -33,6 +33,10 @@
                 android:layout_height="wrap_content" />
 
             <EditText
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorPrimaryLight"
+                android:inputType="text"
+                android:id="@+id/edtUser"
                 android:hint="User :"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -54,6 +58,10 @@
                 android:layout_height="wrap_content" />
 
             <EditText
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorPrimaryLight"
+                android:inputType="textPassword"
+                android:id="@+id/edtPassword"
                 android:hint="Password :"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -63,9 +71,18 @@
 
         </LinearLayout>
 
-
+        <!--New Register-->
+        <TextView
+            android:id="@+id/txtNewRegister"
+            android:clickable="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="New Register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
     </LinearLayout>
-
+    <!--นี่คือปุ่ม-->
     <Button
         android:textColor="@color/textColorPrimary"
         android:background="@color/colorPrimaryDark"
